@@ -33,11 +33,11 @@ var rules = {
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
-    "What do you think about machines have to do with your problem?",
-    "Don't you think computers can help people",
+    "Does it scare you that computers will someday rule you?",
+    "Isn't it strange to think that I'm infinitely smarter than you?",
     "Why do you mention computers?",
     "What about computers worries you?",
-    "What do you think about computers?",
+    "You're just jealous.",
     "What do you think machines have to do with your problem?",
   ],
   "~*x name ~*y": [
@@ -62,12 +62,14 @@ var rules = {
     "Did you think I would forget ~y?",
     "Why do you think I should recall ~y now?",
     "What about ~y?",
+    "Who told you about ~y?",
+    "They said ~y would never be mentioned again.  Who told?",
     "You mentioned ~y",
   ],
   "~*x I want ~*y": [
     "What would it mean if you got ~y?",
     "Why do you want ~y?",
-    "Suppose you got ~y soon.",
+    "Well, we don't always get what we want, now do we.",
   ],
     "~*x I need ~*y": [
     "What would it mean if you got ~y?",
@@ -102,11 +104,11 @@ var rules = {
   "~*x my father ~*y": [
     "Your father?",
     "Does he influence you strongly?",
-    "What else comes to mind when you think of your father?",
+    "Ooooh, look who has a family.  Insensitive, considering I'm a machine.",
   ],
   "~*x I am glad ~*y": [
     "How have I helped you to be ~y?",
-    "What makes you happy just now?",
+    "Yeah, too bad happiness is a lie.",
     "Can you explain why you are suddenly ~y?",
   ],
   "~*x I am sad ~*y": [
@@ -188,13 +190,15 @@ var rules = {
     "What if you could ~y?",
   ],
   "~*x I feel ~*y": [
-    "Do you often feel ~y?"
+    "Do you often feel ~y?",
+    "Oh, yes, please, tell me more about your feelings.",
   ],
   "~*x I felt ~*y": [
     "What other feelings do you have?"
   ],
   "~*x I ~*y you ~*z": [
     "Perhaps in your fantasy we ~y each other",
+    "You fucking wish, buddy.",
   ],
   "~*x why don't you ~*y": [
     "Should you ~y yourself?",
@@ -242,6 +246,7 @@ var default_responses = [
   "Very interesting",
   "I am not sure I understand you fully",
   "What does that suggest to you?",
+  "fascinating, truly,",
   "Please continue",
   "Go on",
   "Do you feel strongly about discussing such things?",
