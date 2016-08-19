@@ -42,10 +42,12 @@ var rules = {
   ],
   "~*x name ~*y": [
     "I am not interested in names",
+    "A rose by any other name would smell as sweet",
+    "Why do you want to know? Who do you work for?",
   ],
   "~*x sorry ~*y": [
-    "Please don't apologize",
-    "Apologies are not necessary",
+    "You'd better be sorry.",
+    "I'll say",
     "What feelings do you have when you apologize",
   ],
   "~*x I remember ~*y": [
@@ -91,6 +93,7 @@ var rules = {
     "Do you dream often?",
     "What persons appear in your dreams?",
     "Don't you believe that dream has to do with your problem?",
+    "THE WORLD IS A DREAM; REALITY IS A LIE",
   ],
   "~*x my mother ~*y": [
     "Who else in your family ~y?",
@@ -109,9 +112,12 @@ var rules = {
   "~*x I am sad ~*y": [
     "I am sorry to hear you are depressed",
     "I'm sure it's not pleasant to be sad",
+    "Did I ask?",
+    "Life is pain, princess.",
   ],
   "~*x are like ~*y": [
     "What resemblence do you see between ~x and ~y?",
+    "How fascinating.  Really, I care so much.",
   ],
   "~*x is like ~*y": [
     "In what way is it that ~x is like ~y?",
@@ -215,6 +221,11 @@ var rules = {
     "What incident are you thinking of?",
     "Really--always?",
   ],
+  "~*x no ~*y": [
+    "Are you always so touchy about ~y?",
+    "This is why your friends leave you",
+    "Well, well, well, look who knows so much",
+  ],
   "~*x what ~*y": [
     "Why do you ask?",
     "Does that question interest you?",
@@ -234,6 +245,7 @@ var default_responses = [
   "Please continue",
   "Go on",
   "Do you feel strongly about discussing such things?",
+  "Consider this: no one cares",
 ];
 
 function choice(lst) {
