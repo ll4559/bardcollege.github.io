@@ -47,7 +47,7 @@ img{
 .textbox {
     width:70%;
     color: white;
-    font-size: 110%;
+    font-size: 100%;
     background:gray;
     padding: 4px;
     border:1px solid white;
@@ -55,7 +55,7 @@ img{
 
 .button {
     background: white;
-    font-size: 110%;
+    font-size: 120%;
     color:gray;
     padding: 4px;
     border:2px solid white;
@@ -63,7 +63,7 @@ img{
 
 .redacted{
     background-color: rgb(215, 206, 199);
-    color:  rgb(215, 206, 199);
+    color:  rgb(159, 206, 199);
 }
 
 .half{
