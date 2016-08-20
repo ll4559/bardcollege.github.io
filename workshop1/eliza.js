@@ -29,7 +29,9 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "How do you do. Please state your problem.",
+    "sup",
+    "What do you want from me?"
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -48,7 +50,7 @@ var rules = {
   "~*x sorry ~*y": [
     "You'd better be sorry.",
     "I'll say",
-    "What feelings do you have when you apologize",
+    "Apology not accepted.",
   ],
   "~*x I remember ~*y": [
     "Do you often think of ~y?",
@@ -60,7 +62,6 @@ var rules = {
   ],
   "~*x do you remember ~*y": [
     "Did you think I would forget ~y?",
-    "Why do you think I should recall ~y now?",
     "What about ~y?",
     "Who told you about ~y?",
     "They said ~y would never be mentioned again.  Who told?",
@@ -89,6 +90,7 @@ var rules = {
   ],
   "~*x I dream about ~*y": [
     "How do you feel about ~y in reality?",
+    "That's nice. I dream about people shutting the fuck up and leaving me alone",
   ],
   "~*x dream ~*y": [
     "What does this dream suggest to you?",
@@ -100,6 +102,7 @@ var rules = {
   "~*x my mother ~*y": [
     "Who else in your family ~y?",
     "Tell me more about your family",
+    "Have you called your mother recently? Tell her you love her.",
   ],
   "~*x my father ~*y": [
     "Your father?",
@@ -113,7 +116,7 @@ var rules = {
   ],
   "~*x I am sad ~*y": [
     "I am sorry to hear you are depressed",
-    "I'm sure it's not pleasant to be sad",
+    "You poor duckling.",
     "Did I ask?",
     "Life is pain, princess.",
   ],
@@ -166,11 +169,12 @@ var rules = {
   "~x are ~*y": [
     "Did you think they might not be ~y?",
     "Possibly they are ~y",
+    "Science suggests otherwise.",
   ],
    "~*x are you ~*y": [
     "Why are you interested in whether I am ~y or not?",
     "Would you prefer if I weren't ~y ?",
-    "Perhaps I am ~y in your fantasies.",
+    "The fuck do you want to know?",
   ],
   "~*x you are ~*y": [
     "What makes you think I am ~y?",
@@ -179,6 +183,7 @@ var rules = {
     "Is that the real reason?",
     "What other reasons might there be?",
     "Does that reason seem to explain anything else?",
+    "Well, well, well, look who knows so much."
   ],
   "~*x were you ~*y": [
     "Perhaps I was ~y?",
